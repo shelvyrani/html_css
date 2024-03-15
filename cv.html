@@ -29,7 +29,7 @@
 
     nav ul li a {
         text-decoration: none;
-        color: blue;
+        color: rgb(51, 92, 124);
     }
 
     a:hover {
@@ -46,14 +46,37 @@
         text-align: center;
     }
 
+    .namaKelas {
+        color: white;
+    }
+
+    #namaId {
+        color: white;
+    }
+
+    [href="https://www.instagram.com/shelvyrn/"], [href="mailto:shelvyrn@gmail.com"] {
+        color: #e6e621;
+        font-weight: bold;
+    }
+
+    a:hover {
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+
+    section::first-line {
+        font-variant: small-caps;
+        color: #5a9fa5;
+    }
+
     </style>
 
 </head>
 
 <body>
     <header>
-    <h1>Shelvy Rani</h1>
-    <p>Web Developer | Graphic Designer</p>
+    <h1 class="namaKelas">Shelvy Rani</h1>
+    <p class="namaKelas">Web Developer | Graphic Designer</p>
     </header>
     <nav>
         <ul>
@@ -74,8 +97,8 @@
     <section id="pendidikan">
         <h2>Pendidikan</h2>
         <ul>
-            <li>Sekolah Dasar Negeri Pisangan 1</li>
-            <li>Sekolah Menengah Pertama 11 Jakarta</li>
+            <li>Sekolah Dasar Negeri Pisangan 1 Ciputat</li>
+            <li>Sekolah Menengah Pertama Negeri 11 Jakarta</li>
             <li>Sekilah Menengah Kejuruan Bhina Rahayu</li>
         </ul>
     </section>
@@ -87,7 +110,7 @@
     </section>
     
     <footer>
-        <p>Ikuti saya di sosial media: <a href="https://www.instagram.com/shelvyrn/">Instagram</a>,
+        <p id="namaId">Ikuti saya di sosial media: <a href="https://www.instagram.com/shelvyrn/">Instagram</a>,
             <a href="mailto:shelvyrn@gmail.com">Email</a></p>
     </footer>
     
